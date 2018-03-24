@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace ReplaceCypher
@@ -16,18 +17,29 @@ namespace ReplaceCypher
 
                 int cesarShift = 1;
                 var CesarRule = CypherRuleBuilder.BuildCesarCypher(cesarShift);
-                string encoded = Encoder.Encode(content, CesarRule, true);
                 var RandomCypher = CypherRuleBuilder.BuildRandomCypher(1);
-                encoded = Encoder.Encode(encoded, RandomCypher, true);
 
-                string decoded = Encoder.Encode(encoded, CypherRuleBuilder.InvertCypher(RandomCypher, true), false);
-                decoded = Encoder.Encode(decoded, CypherRuleBuilder.InvertCypher(CesarRule), true);
+                Console.WriteLine("Cesar cypher");
+                PrintCypher(CesarRule);
+                Console.WriteLine("Replace cypher");
+                PrintCypher(RandomCypher);
+
+                string encoded = Encoder.Encode(content, CesarRule, true);
 
                 Console.WriteLine(content);
-                Console.WriteLine();
+                Console.WriteLine("--->");
                 Console.WriteLine(encoded);
-                Console.WriteLine();
+                Console.WriteLine("--->");
+                encoded = Encoder.Encode(encoded, RandomCypher, true);
+                Console.WriteLine(encoded);
+                Console.WriteLine("--->");
+
+                string decoded = Encoder.Encode(encoded, CypherRuleBuilder.InvertCypher(RandomCypher, true), false);
                 Console.WriteLine(decoded);
+                Console.WriteLine("--->");
+                decoded = Encoder.Encode(decoded, CypherRuleBuilder.InvertCypher(CesarRule), true);
+                Console.WriteLine(decoded);
+                Console.WriteLine("--->");
 
                 Console.Write("Write to file: ");
                 fileName = Console.ReadLine();
@@ -40,6 +52,14 @@ namespace ReplaceCypher
                 Console.ReadKey();
             }
 
+        }
+
+        static void PrintCypher(Dictionary<string, string> rule)
+        {
+            foreach (var ch in rule)
+            {
+                Console.WriteLine($"{ch.Key} ---> {ch.Value}");
+            }
         }
     }
 }
