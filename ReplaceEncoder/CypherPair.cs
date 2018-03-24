@@ -18,6 +18,13 @@ namespace ReplaceEncoder
             To = to;
         }
 
+        public void Swap()
+        {
+            string tempFrom = From;
+            From = To;
+            To = tempFrom;
+        }
+
         public string From { get; set; }
         public string To { get; set; }
     }

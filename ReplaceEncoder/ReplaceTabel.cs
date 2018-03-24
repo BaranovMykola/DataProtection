@@ -16,17 +16,21 @@ namespace ReplaceEncoder
             
         }
 
-        public ReplaceTabel(List<CypherPair> cyhper)
+        public ReplaceTabel(List<CypherPair> cyphper)
         {
-            Cyhper = cyhper;
+            Cyphper = cyphper;
         }
 
         public ReplaceTabel(string file)
         {
-            this.Cyhper = ReplaceTabel.Read(file).Cyhper;
+            this.Cyphper = ReplaceTabel.Read(file).Cyphper;
         }
 
-        public List<CypherPair> Cyhper { get; set; }
+        public List<CypherPair> Cyphper { get; set; }
+
+        public virtual Func<string, List<string>> EncodeSplitter { get; } = Encoder.SplitByChar;
+
+        public virtual Func<string, List<string>> DecodeSplitter { get; } = Encoder.SplitByChar;
 
         public void Write(string file)
         {
@@ -45,6 +49,19 @@ namespace ReplaceEncoder
                 var xml = new XmlSerializer(typeof(ReplaceTabel));
                 return xml.Deserialize(stream) as ReplaceTabel;
             }
+        }
+
+        public string this[string key]
+        {
+            get
+            {
+                return Cyphper.Find(s => s.From == key).To ?? throw new ArgumentException();
+            }
+        }
+
+        public virtual void Invert()
+        {
+            Cyphper.ForEach(s => s.Swap());
         }
     }
 }
