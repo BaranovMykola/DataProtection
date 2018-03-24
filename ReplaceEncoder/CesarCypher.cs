@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ReplaceEncoder
 {
+    [Serializable]
     public class CesarCypher : ReplaceTabel
     {
         public CesarCypher()
@@ -11,10 +12,6 @@ namespace ReplaceEncoder
         }
 
         public CesarCypher(List<CypherPair> cyphper) : base(cyphper)
-        {
-        }
-
-        public CesarCypher(string file) : base(file)
         {
         }
 

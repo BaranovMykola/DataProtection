@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cypher xsi:type="RandomCypher">
+    <Cyphper>
+      <CypherPair From="A" To="68 " />
+      <CypherPair From="a" To="78 " />
+      <CypherPair From="B" To="83 " />
+      <CypherPair From="b" To="47 " />
+      <CypherPair From="C" To="79 " />
+      <CypherPair From="c" To="81 " />
+      <CypherPair From="D" To="93 " />
+      <CypherPair From="d" To="96 " />
+      <CypherPair From="E" To="11 " />
+      <CypherPair From="e" To="58 " />
+      <CypherPair From="F" To="56 " />
+      <CypherPair From="f" To="22 " />
+      <CypherPair From="G" To="2 " />
+      <CypherPair From="g" To="28 " />
+      <CypherPair From="H" To="69 " />
+      <CypherPair From="h" To="91 " />
+      <CypherPair From="I" To="24 " />
+      <CypherPair From="i" To="52 " />
+      <CypherPair From="J" To="4 " />
+      <CypherPair From="j" To="61 " />
+      <CypherPair From="K" To="64 " />
+      <CypherPair From="k" To="97 " />
+      <CypherPair From="L" To="5 " />
+      <CypherPair From="l" To="67 " />
+      <CypherPair From="M" To="63 " />
+      <CypherPair From="m" To="34 " />
+      <CypherPair From="N" To="20 " />
+      <CypherPair From="n" To="84 " />
+      <CypherPair From="O" To="0 " />
+      <CypherPair From="o" To="85 " />
+      <CypherPair From="P" To="39 " />
+      <CypherPair From="p" To="16 " />
+      <CypherPair From="Q" To="88 " />
+      <CypherPair From="q" To="99 " />
+      <CypherPair From="R" To="57 " />
+      <CypherPair From="r" To="87 " />
+      <CypherPair From="S" To="53 " />
+      <CypherPair From="s" To="38 " />
+      <CypherPair From="T" To="35 " />
+      <CypherPair From="t" To="55 " />
+      <CypherPair From="U" To="46 " />
+      <CypherPair From="u" To="19 " />
+      <CypherPair From="V" To="50 " />
+      <CypherPair From="v" To="75 " />
+      <CypherPair From="W" To="37 " />
+      <CypherPair From="w" To="29 " />
+      <CypherPair From="X" To="94 " />
+      <CypherPair From="x" To="26 " />
+      <CypherPair From="Y" To="17 " />
+      <CypherPair From="y" To="27 " />
+      <CypherPair From="Z" To="7 " />
+      <CypherPair From="z" To="10 " />
+      <CypherPair From=" " To="3 " />
+    </Cyphper>
+  </Cypher>
+  <EncodedText>53 26 3 10 87 52 81 38 34 81 3 81 96 47 38 26 99 3 96 87 85 27 47 52 3 38 81 3 97 3 96 87 85 27 47 85 96 38 34 97 75 3 16 47 97 29 85 28 27 47 19 3 38 26 3 28 87 38 34 87 3 96 87 85 3 10 27 38 26 96 75 38 19 85 3 10 97 47 96 38 34 75 85 81 3 27 16 3 10 97 47 96 38 34 75 85 3 10 87 52 81 38 34 81 3 97 47 85 3 47 85 10 75 97 34 85 84 3 67 52 3 27 26 85 84 38 29 85 26 81 38 27 26 97 75 3 27 67 55 85 34 96 81 3 34 97 75 75 85 84 3 81 96 47 38 26 99 81 </EncodedText>
+  <CesarShift>-900</CesarShift>
+</Message>

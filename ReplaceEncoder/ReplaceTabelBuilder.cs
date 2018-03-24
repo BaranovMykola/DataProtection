@@ -25,7 +25,13 @@ namespace ReplaceEncoder
             for (int i = 0; i < alphaLst.Count; i++)
             {
                 //cypher[alphaLst[i]] = alphaLst[(Math.Abs(i + shift * 2)) % alphaLst.Count];
-                cypher.Cyphper.Add( new CypherPair(alphaLst[i], alphaLst[(Math.Abs(i + shift * 2)) % alphaLst.Count]));
+                int j = (i + shift * 2) % alphaLst.Count;
+                if (j < 0)
+                {
+                    j += alphaLst.Count;
+                }
+                string to = alphaLst[j];
+                cypher.Cyphper.Add( new CypherPair(alphaLst[i], to));
             }
 
             cypher.Cyphper.Add(new CypherPair(" ", " "));
@@ -46,7 +52,7 @@ namespace ReplaceEncoder
             lst.OrderBy(s => rnd.Next());
 
             var alphaLst = EnglishAlphabet.ToList();
-            var cypher = new RadndomCypher(new List<CypherPair>());
+            var cypher = new RandomCypher(new List<CypherPair>());
 
             for (int i = 0; i < alphaLst.Count; i++)
             {

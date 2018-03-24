@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace ReplaceEncoder
 {
@@ -14,6 +15,7 @@ namespace ReplaceEncoder
 
         public CypherPair(string from, string to)
         {
+
             From = from;
             To = to;
         }
@@ -25,7 +27,10 @@ namespace ReplaceEncoder
             To = tempFrom;
         }
 
+        [XmlAttribute]
         public string From { get; set; }
+
+        [XmlAttribute]
         public string To { get; set; }
     }
 }

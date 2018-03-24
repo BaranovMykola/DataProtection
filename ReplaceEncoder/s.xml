@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cypher xsi:type="RandomCypher">
+    <Cyphper>
+      <CypherPair>
+        <From>A</From>
+        <To>74 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>a</From>
+        <To>61 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>B</From>
+        <To>21 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>b</From>
+        <To>65 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>C</From>
+        <To>57 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>c</From>
+        <To>36 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>D</From>
+        <To>64 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>d</From>
+        <To>23 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>E</From>
+        <To>97 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>e</From>
+        <To>30 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>F</From>
+        <To>99 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>f</From>
+        <To>10 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>G</From>
+        <To>31 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>g</From>
+        <To>37 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>H</From>
+        <To>79 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>h</From>
+        <To>18 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>I</From>
+        <To>98 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>i</From>
+        <To>76 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>J</From>
+        <To>56 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>j</From>
+        <To>83 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>K</From>
+        <To>72 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>k</From>
+        <To>40 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>L</From>
+        <To>85 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>l</From>
+        <To>38 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>M</From>
+        <To>54 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>m</From>
+        <To>45 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>N</From>
+        <To>53 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>n</From>
+        <To>12 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>O</From>
+        <To>59 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>o</From>
+        <To>5 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>P</From>
+        <To>25 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>p</From>
+        <To>32 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>Q</From>
+        <To>39 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>q</From>
+        <To>47 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>R</From>
+        <To>48 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>r</From>
+        <To>81 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>S</From>
+        <To>58 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>s</From>
+        <To>94 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>T</From>
+        <To>15 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>t</From>
+        <To>1 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>U</From>
+        <To>34 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>u</From>
+        <To>49 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>V</From>
+        <To>66 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>v</From>
+        <To>73 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>W</From>
+        <To>11 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>w</From>
+        <To>50 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>X</From>
+        <To>3 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>x</From>
+        <To>90 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>Y</From>
+        <To>84 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>y</From>
+        <To>70 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>Z</From>
+        <To>17 </To>
+      </CypherPair>
+      <CypherPair>
+        <From>z</From>
+        <To>86 </To>
+      </CypherPair>
+      <CypherPair>
+        <From> </From>
+        <To>78 </To>
+      </CypherPair>
+    </Cyphper>
+  </Cypher>
+  <EncodedText>86 61 65 </EncodedText>
+  <CesarShift>-1</CesarShift>
+</Message>

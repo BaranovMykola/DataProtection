@@ -4,17 +4,14 @@ using System.Text;
 
 namespace ReplaceEncoder
 {
-    public class RadndomCypher : ReplaceTabel
+    [Serializable]
+    public class RandomCypher : ReplaceTabel
     {
-        public RadndomCypher()
+        public RandomCypher()
         {
         }
 
-        public RadndomCypher(List<CypherPair> cyphper) : base(cyphper)
-        {
-        }
-
-        public RadndomCypher(string file) : base(file)
+        public RandomCypher(List<CypherPair> cyphper) : base(cyphper)
         {
         }
 
