@@ -57,13 +57,19 @@ namespace ReplaceCypher
 
         }
 
-        public static Dictionary<string, string> InvertCypher(Dictionary<string, string> rule)
+        public static Dictionary<string, string> InvertCypher(Dictionary<string, string> rule, bool trim = false)
         {
             var newRule = new Dictionary<string,string>();
 
             foreach (var pair in rule)
             {
-                newRule[pair.Value.Trim()] = pair.Key;
+                string val = pair.Value;
+                if (trim)
+                {
+                    val = val.Trim();
+                }
+
+                newRule[val] = pair.Key;
             }
 
             return newRule;

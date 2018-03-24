@@ -15,11 +15,13 @@ namespace ReplaceCypher
                 string content = File.ReadAllText(fileName);
 
                 int cesarShift = 1;
-                var CesarRule = CypherRuleBuilder.BuildRandomCypher(cesarShift);
-
+                var CesarRule = CypherRuleBuilder.BuildCesarCypher(cesarShift);
                 string encoded = Encoder.Encode(content, CesarRule, true);
-                //encoded = encoded.Replace("  ", " ");
-                string decoded = Encoder.Encode(encoded, CypherRuleBuilder.InvertCypher(CesarRule), false);
+                var RandomCypher = CypherRuleBuilder.BuildRandomCypher(1);
+                encoded = Encoder.Encode(encoded, RandomCypher, true);
+
+                string decoded = Encoder.Encode(encoded, CypherRuleBuilder.InvertCypher(RandomCypher, true), false);
+                decoded = Encoder.Encode(decoded, CypherRuleBuilder.InvertCypher(CesarRule), true);
 
                 Console.WriteLine(content);
                 Console.WriteLine();
